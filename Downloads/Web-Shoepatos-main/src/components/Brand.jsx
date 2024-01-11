@@ -8,7 +8,7 @@ const Brand = () => {
         <div className='flex justify-center p-5 gap-5'>
             {brand.map((items, index)=>(
                <div key={index} className='flex items-center grayscale hover:grayscale-0 duration-300'>
-                    <img src={items.image} alt=""
+                    <img src={items.image} alt={item.name}
                     className='w-[150px] ' />
                </div>
             ))}
